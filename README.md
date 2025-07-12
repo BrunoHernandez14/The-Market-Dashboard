@@ -26,6 +26,9 @@ It is used to measure how much the Delta changes per dollar change of the underl
 
 Gamma will always be a positive value since it is derived from both the stock price and Delta value. It is critical for hedging against risk but is often misunderstood. 
 
+Gamma will the at its highest whenever the options contract is At-The-Money (ATM) which can cause somethign called Gamma Risk which results in huge swings in Delta. However when the contract is Deep In-The-Money (ITM) or Out-The-Money (OTM) the Gamma will be low. 
+
+Example: You have a Delta of 0.6 and a Gamma of 0.1, AAPL goes up one dollar and now your new Delta is 0.7, but soon AAPl drops a dollar now your delta is back at 0.6. 
 
 Theta (Θ):
 Vega (ν):
